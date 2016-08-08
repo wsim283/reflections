@@ -1,0 +1,8 @@
+What happens when you intialize a repository? Why do you need to do it?
+The repository is created but the files remain untracked until the first commit is made. 
+We need to do it because git init will initialise and prepare our repository for commits and other git commands like git log.
+
+How is staging area different from the working directory and the repository? What value do you think it offers?
+Sometimes we make mistakes in our actions for e.g, rm a file that we didnt intend to remove, the same goes with commit.
+Staging area is different to working directory and repository because it is just an area that is preparing what we r trying to commit to the repo.
+In this way, we can take the file back (unstage) to the working directory if we decide that it is not ready yet for commit.
