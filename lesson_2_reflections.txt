@@ -13,4 +13,7 @@ you can make sure by running "git diff --staged" and observe that these are the 
 What are some situations when branches would be helpful in keeping your history organised? How would branches help?
 1. opt changes that may not make it to the final productions
 2. group work and collabs
-branches help in a way that it doesn't affect the main branch if something goes wrong
+branches help in a way that it doesn't affect the main branch if something goes wrong.
+
+How do the diagrams help you visualize the branch structure?
+It helps tremendously. You can see branches, unreachable commits, commits and their parents. To visualise with diagram you will get a clear understanding of the repository's structure.
