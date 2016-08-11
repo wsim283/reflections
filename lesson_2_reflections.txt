@@ -17,3 +17,8 @@ branches help in a way that it doesn't affect the main branch if something goes 
 
 How do the diagrams help you visualize the branch structure?
 It helps tremendously. You can see branches, unreachable commits, commits and their parents. To visualise with diagram you will get a clear understanding of the repository's structure.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging two branches together is a new commit that its parent is pointing to both of the merging commits for example:
+coin and master branch, we are currently in master branch. Both of these commit merges and forms a new commit that is now the new master.
+We represent it in the diagram the way we do because it is alot easier to visualise each branches parents and the commit that both had before the branch split.
