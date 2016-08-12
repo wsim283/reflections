@@ -22,3 +22,9 @@ What is the result of merging two branches together? Why do we represent it in t
 The result of merging two branches together is a new commit that its parent is pointing to both of the merging commits for example:
 coin and master branch, we are currently in master branch. Both of these commit merges and forms a new commit that is now the new master.
 We represent it in the diagram the way we do because it is alot easier to visualise each branches parents and the commit that both had before the branch split.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros of automatic vs manual:
+1. comparing conflicted code, git informs us where the conflicts are while for manual you have to make sure of it yourself.
+2. safety, if there are any conflict, git does not merge it without us fixing the conflicts. In manual you can only copy and paste and hope for the best that there are no conflicts (i.e. crash).
+3. you can always go back, it is true that you can also undo in manual merge but you need to make sure you know where to stop undoing. in git, it is just a simply checking out a previous commit.
