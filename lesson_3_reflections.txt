@@ -6,3 +6,14 @@ Because there is potential loss of code if having git to automatically stay up t
 Note that in order to update our remote repository we need to do commits and pushes. if Git constantly check and pull automatically from our remote repository,
 then it is very difficult to do some work on future commits as the repository keeps on pulling. In addition to this, collabing with others do have similar issues.
 So manually pulling changes offers more flexibilty.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Let see this from bottom to top view starting from branches.
+Branch:
+a branch is made up of commits in sequential order. The first commit is considered to be the root parent. You can then branch out to other branches if you need to work on something specific like a feature. 
+In this way, you would not alter the main (master)branch.
+Clones:
+Clones are repositories you've copied from for example, GitHub. You then can work on this repository locally without the need of using internet connection. 
+You can though, push the repository you've cloned online to github.
+Fork:
+This is basically clone except you are cloning from a repository from Github, to your own repository in Github.
