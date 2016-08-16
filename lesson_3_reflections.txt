@@ -22,3 +22,19 @@ What is the benefit of having a copy of the last known state of the remote store
 If you are working on a solo project, you would want to know the last known state of the remote as a checkpoint. You do not want to go ahead by alot of commits incase the worst happens (pc crashed, un-recoverable, etc), so it is good to know the last checkpoint so then you can push new commits to github as back-up. 
 Also it is convenient to know where you last known state is in situation such as long flights/travel where you cannot go online so that you know how much progress you've done in the project.
 In addition to solo projects, it is also convenient for you to know the last known state before your colleague pushed to the repo in a collab project. In this way, you can know how much progress has been done to the project since you last pulled.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+There are multiple ways but each possesses some flaws:
+1. manually code yourself and then constantly meet/communicate with your collaborators:
+ - Easy:
+ 	you get to merge code or work together in real-time
+ - Hard:
+ 	merging could be troublesome, depends on progress each person had done. Best way here is to make notes everytime you make changes/code
+ 	Communicating while working together could be trouble some since we may not see the same screen, so meeting up is best option but time needs to be convenient
+
+2. Using Dropbox
+ - Easy:
+ 	Code in dropbox gets updated everytime you save
+ - Hard:
+    Coding at the same time can cause loss of code if each party works on the same file, so communication is key and ensuring others not to work on the file you are currently working on
+    
