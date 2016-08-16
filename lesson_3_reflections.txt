@@ -17,3 +17,8 @@ Clones are repositories you've copied from for example, GitHub. You then can wor
 You can though, push the repository you've cloned online to github.
 Fork:
 This is basically clone except you are cloning from a repository from Github, to your own repository in Github.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+If you are working on a solo project, you would want to know the last known state of the remote as a checkpoint. You do not want to go ahead by alot of commits incase the worst happens (pc crashed, un-recoverable, etc), so it is good to know the last checkpoint so then you can push new commits to github as back-up. 
+Also it is convenient to know where you last known state is in situation such as long flights/travel where you cannot go online so that you know how much progress you've done in the project.
+In addition to solo projects, it is also convenient for you to know the last known state before your colleague pushed to the repo in a collab project. In this way, you can know how much progress has been done to the project since you last pulled.
